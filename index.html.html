@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Request a Service | Profile Updated Center</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <div class="max-w-4xl mx-auto p-6">
+    <h1 class="text-3xl font-bold text-center mb-6">Request a Service</h1>
+    <p class="text-center text-lg mb-10">Ready to upgrade your career? Choose a service and let's help you land that job.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+      <div class="p-6 bg-white rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-2">CV &amp; Cover Letter Writing</h2>
+        <p>Professionally crafted documents tailored to your target roles and industries.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-2">LinkedIn &amp; Upwork Optimization</h2>
+        <p>We enhance your profiles to attract recruiters and top clients online.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-2">Career &amp; Academic Consultations</h2>
+        <p>Strategy sessions for job or school applications, personal branding, and more.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-2">Account Management (Monthly)</h2>
+        <p>We manage your job search, application submissions, and platform activity every month.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-2">Job Offer Service (One-Time)</h2>
+        <p>We work with you until you secure a job — simple, focused, and result-driven.</p>
+      </div>
+    </div>
+
+    <form class="bg-white p-6 rounded-xl shadow space-y-4">
+      <h3 class="text-xl font-semibold mb-4">Submit Your Request</h3>
+      <input type="text" placeholder="Full Name" class="w-full border border-gray-300 p-3 rounded-md" required />
+      <input type="email" placeholder="Email Address" class="w-full border border-gray-300 p-3 rounded-md" required />
+      <input type="text" placeholder="WhatsApp Number (Optional)" class="w-full border border-gray-300 p-3 rounded-md" />
+      <select class="w-full border border-gray-300 p-3 rounded-md" required>
+        <option value="">Select a Service</option>
+        <option value="cv">CV &amp; Cover Letter Writing</option>
+        <option value="linkedin">LinkedIn &amp; Upwork Optimization</option>
+        <option value="consultation">Career &amp; Academic Consultations</option>
+        <option value="account">Account Management (Monthly)</option>
+        <option value="joboffer">Job Offer Service (One-Time)</option>
+      </select>
+      <input type="file" class="w-full border border-gray-300 p-3 rounded-md" />
+      <textarea placeholder="Tell us more about your request..." class="w-full border border-gray-300 p-3 rounded-md h-32"></textarea>
+      <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-3 rounded-md hover:bg-blue-700 transition">Submit Request</button>
+    </form>
+
+    <div class="mt-8 text-center">
+      <p>Need help before submitting? <a href="/contact" class="text-blue-600 font-semibold">Contact us</a> or <a href="#" class="text-green-600 font-semibold">Chat with us on WhatsApp</a>.</p>
+    </div>
+  </div>
+</body>
+</html>
